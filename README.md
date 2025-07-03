@@ -2,7 +2,8 @@
 
 - An Arduino-based autonomous mobile robot that follows lines, detects and avoids obstacles, and picks up/drops loads using servo mechanisms. 
 - This project combines **embedded systems**, **robot control**, and **real-time sensor integration**.
-
+- For more information or images related to the project, please visit my LinkedIn.
+  
 ---
 
 ## Features
@@ -23,12 +24,12 @@
 | 2x IR Line Sensors   | Digital output for line detect  |
 | Ultrasonic Sensor    | HC-SR04 for obstacle detection  |
 | 2x Servo Motors      | 1 for arm, 1 for gripper        |
-| 3D printed           | To form the base                |
-| Chassis + Wheels     |                                 |
+| 3D printed chassis + wheels| To form the base          |
 | Power Supply         | 12V Battery pack*               |
 
 * Might need to use a separate power source for the grippers. Our battery could not provide enough power to the entire system.
   
+---
 
 ## How It Works
 
@@ -43,6 +44,8 @@
 3. **Load Handling:**  
    - Grabs a load at startup.
    - Drops it if line is lost for more than 60 seconds (Assuming that it stays offline for more than 1 minute when it has reached its destination).
+  
+---
 
 ## Future Improvements
 
